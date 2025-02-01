@@ -559,6 +559,15 @@ section {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .about .image {
+        text-align: center;
+        min-height: 400px;
+        min-width: 400px;
+        background-size:85%;
+      }
+}
+
 /* Preloading */
 /* Full-Screen Preloader */
 #preloader {
@@ -600,6 +609,8 @@ section {
       transform: scale(1);
     }
   }
+
+
 
 
 /*--------------------------------------------------------------

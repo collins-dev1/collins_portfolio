@@ -563,8 +563,7 @@ section {
     .about .image {
         text-align: center;
         height: 400px;
-        width: 400px;
-        background-size: contain;
+        background-size: 70%;
       }
 }
 

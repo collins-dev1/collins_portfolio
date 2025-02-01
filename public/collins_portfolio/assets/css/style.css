@@ -562,7 +562,7 @@ section {
 @media only screen and (min-width: 768px) and (max-width: 1024px){
     .about .image {
         text-align: center;
-        height: 400px;
+        height: 500px;
         background-size: 70%;
       }
 }

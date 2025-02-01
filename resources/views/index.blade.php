@@ -672,7 +672,7 @@ https://www.margaretwhitlock.com/ -->
                                             </br>
                                             <div class="d-flex align-items-center">
                                                 <i class="bi bi-telephone"></i>
-                                                <p><a href="tel:+2347067668473" class="__cf_email__">07067668473</a>
+                                                <p><a href="tel:+2347067668473" class="__cf_email__">+2347067668473</a>
                                                 </p>
                                             </div>
 

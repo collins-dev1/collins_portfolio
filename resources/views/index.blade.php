@@ -378,13 +378,10 @@ https://www.margaretwhitlock.com/ -->
             <section id="services" class="services section-bg">
                 <div class="container">
 
-                    <div class="section-title" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="130"
-                    data-aos-offset="100">
-                        <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
-                        data-aos-offset="100">My
+                    <div class="section-title">
+                        <h2>My
                             Services</h2>
-                        <h4 class="fw-bold" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="130"
-                        data-aos-offset="100">Empowering Your Tech Journey: Turning Vision into Innovation</h4>
+                        <h4 class="fw-bold">Empowering Your Tech Journey: Turning Vision into Innovation</h4>
                         <br>
                         <p>
                             Imagine a future where technology simplifies life, fosters innovation, and unlocks unlimited
@@ -484,19 +481,16 @@ https://www.margaretwhitlock.com/ -->
                             something
                             extraordinary together!</p>
                         <br>
-                        <h2 class="mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="130"
-                        data-aos-offset="100">
+                        <h2 class="mt-3" data-aos-duration="1000" data-aos-delay="130" data-aos-offset="100">
                             Skills
                             and Programming Tools</h2>
-                        <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="130"
-                        data-aos-offset="100">
+                        <p>
                             Here are the courses and programming languages I have studied and continue to excel in with
                             hands-on experience.
                         </p>
                         <div class="row row-cols-1 row-cols-md-4 row-cols-lg-4 g-3 mt-3">
                             <div class="col">
-                                <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
-                                data-aos-offset="100">
+                                <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/HTML5 logo PNG.jpeg') }}"
                                         alt="" style="object-fit:contain; height:150px; width:100%;">
                                     <div class="d-flex flex-column justify-content-center align-items-center"
@@ -505,8 +499,7 @@ https://www.margaretwhitlock.com/ -->
                                     </div>
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/CSS3 Badge with CSS text.jpeg') }}"
                                         alt="" style="object-fit:contain; height:150px; width:100%;">
@@ -516,8 +509,7 @@ https://www.margaretwhitlock.com/ -->
                                     </div>
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/sass.jpeg') }}"
                                         alt="" style="object-fit:contain; height:150px; width:100%;">
@@ -527,8 +519,7 @@ https://www.margaretwhitlock.com/ -->
                                     </div>
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/apple-touch-icon.png') }}"
                                         alt="" style="object-fit:contain; height:150px; width:100%;">
@@ -538,8 +529,7 @@ https://www.margaretwhitlock.com/ -->
                                     </div>
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/Javascript Stickers by flexweb _ Redbubble.jpeg') }}"
                                         alt="" style="object-fit:contain; height:150px; width:100%;">
@@ -549,8 +539,7 @@ https://www.margaretwhitlock.com/ -->
                                     </div>
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/PHP.jpeg') }}" alt=""
                                         style="object-fit:cover; height:150px; width:100%;">
@@ -560,8 +549,7 @@ https://www.margaretwhitlock.com/ -->
                                     </div>
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/laravel2.png') }}"
                                         alt="" style="object-fit:cover; height:150px; width:100%;">
@@ -571,8 +559,7 @@ https://www.margaretwhitlock.com/ -->
                                     </div>
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/Python.jpeg') }}" alt=""
                                         style="object-fit:cover; height:150px; width:100%;">
@@ -590,81 +577,69 @@ https://www.margaretwhitlock.com/ -->
 
             {{-- Portfolio Section --}}
             <section id="portfolio" class="job section-bg">
-                <div class="container" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130"
-                data-aos-offset="100">
-                    <div class="section-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
-                    data-aos-offset="100">
+                <div class="container">
+                    <div class="section-title">
                         <h2>My Portfolio</h2>
                         <p>Showcasing the Projects and Solutions I've Delivered.</p>
                     </div>
                     <div>
                         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-3">
-                            <div class="col" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/bsi.png') }}" alt=""
                                         style="object-fit:cover; height:300px; width:100%;">
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/sprezza.ai.png') }}"
                                         alt="" style="object-fit:cover; height:300px; width:100%;">
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/ado-rental.png') }}"
                                         alt="" style="object-fit:cover; height:300px; width:100%;">
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/booksite.png') }}"
                                         alt="" style="object-fit:cover; height:300px; width:100%;">
 
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/athens-viks.png') }}"
                                         alt="" style="object-fit:cover; height:300px; width:100%;">
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/solotech.png') }}"
                                         alt="" style="object-fit:cover; height:300px; width:100%;">
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/stmary.png') }}" alt=""
                                         style="object-fit:cover; height:300px; width:100%;">
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/hospital.png') }}"
                                         alt="" style="object-fit:cover; height:300px; width:100%;">
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/xpertodds.png') }}"
                                         alt="" style="object-fit:cover; height:300px; width:100%;">
                                 </div>
                             </div>
-                            <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="130"
-                            data-aos-offset="100">
+                            <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/somcol_foods.png') }}"
                                         alt="" style="object-fit:cover; height:300px; width:100%;">
@@ -682,10 +657,8 @@ https://www.margaretwhitlock.com/ -->
             <main id="main">
                 <!-- Contact Section -->
                 <section id="contact" class="contact section-bg">
-                    <div class="container" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="130"
-                    data-aos-offset="100">
-                        <div class="section-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
-                        data-aos-offset="100">
+                    <div class="container">
+                        <div class="section-title">
                             <h2>Contact</h2>
                             <p>Get in Touch: Connect with Me Today!</p>
                         </div>

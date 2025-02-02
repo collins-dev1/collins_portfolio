@@ -229,7 +229,7 @@ https://www.margaretwhitlock.com/ -->
                             is Oguno Ikechukwu Collins, a passionate software developer from Ukpo, Dunukofia Local
                             Government Area, Anambra State, Nigeria. I completed my secondary education at Christ the
                             King
-                            College (CKC) Onitsha and pursued the JUPEB program at Chukwuemeka Odumegwu Ojukwu
+                            College (CKC) Onitsha and pursued the Joint Universities Preliminary Examinations Board (JUPEB) program at Chukwuemeka Odumegwu Ojukwu
                             University. I
                             further honed my technical skills in computer craft at the Federal Ministry of Labour and
                             Employment in Enugu and advanced my expertise in full-stack web development at Kodex
@@ -313,9 +313,9 @@ https://www.margaretwhitlock.com/ -->
 
                             <h3 class="resume-title">Education Certifications</h3>
                             <div class="resume-item">
-                                <h4>WASSCE -> Christ the king College Onitsha, Anambra State Nigeria.</h4>
+                                <h4>West African Senior School Certificate Examination(WASSCE) -> Christ the king College Onitsha, Anambra State Nigeria.</h4>
                                 <h5>2018</h5>
-                                <h4>JUPEB PROGRAM -> Chukwuemeka Odumegwu Ojukwu University Igbariam, Anambra State
+                                <h4>Joint Universities Preliminary Examinations Board(JUPEB) PROGRAM -> Chukwuemeka Odumegwu Ojukwu University Igbariam, Anambra State
                                     Nigeria.
                                 </h4>
                                 <h5>2019 - 2020</h5>
@@ -620,6 +620,18 @@ https://www.margaretwhitlock.com/ -->
                             <div class="col">
                                 <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/hospital.png') }}"
+                                        alt="" style="object-fit:cover; height:300px; width:100%;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="{{ asset('collins_portfolio/assets/img/xpertodds.png') }}"
+                                        alt="" style="object-fit:cover; height:300px; width:100%;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="{{ asset('collins_portfolio/assets/img/somcol_foods.png') }}"
                                         alt="" style="object-fit:cover; height:300px; width:100%;">
                                 </div>
                             </div>

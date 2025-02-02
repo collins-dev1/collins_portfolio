@@ -378,10 +378,13 @@ https://www.margaretwhitlock.com/ -->
             <section id="services" class="services section-bg">
                 <div class="container">
 
-                    <div class="section-title">
-                        <h2>My
+                    <div class="section-title" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="130"
+                    data-aos-offset="100">
+                        <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
+                        data-aos-offset="100">My
                             Services</h2>
-                        <h4 class="fw-bold">Empowering Your Tech Journey: Turning Vision into Innovation</h4>
+                        <h4 class="fw-bold" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="130"
+                        data-aos-offset="100">Empowering Your Tech Journey: Turning Vision into Innovation</h4>
                         <br>
                         <p>
                             Imagine a future where technology simplifies life, fosters innovation, and unlocks unlimited
@@ -495,7 +498,7 @@ https://www.margaretwhitlock.com/ -->
                                         alt="" style="object-fit:contain; height:150px; width:100%;">
                                     <div class="d-flex flex-column justify-content-center align-items-center"
                                         style="padding: 12px;">
-                                        <h6>HTML(Hyper Text Markup Language)</h6>
+                                        <h6 class="text-center">HTML(Hyper Text Markup Language)</h6>
                                     </div>
                                 </div>
                             </div>
@@ -505,7 +508,7 @@ https://www.margaretwhitlock.com/ -->
                                         alt="" style="object-fit:contain; height:150px; width:100%;">
                                     <div class="d-flex flex-column justify-content-center align-items-center"
                                         style="padding: 12px;">
-                                        <h6>CSS(Cascading Style Sheet)</h6>
+                                        <h6 class="text-center">CSS(Cascading Style Sheet)</h6>
                                     </div>
                                 </div>
                             </div>
@@ -515,7 +518,7 @@ https://www.margaretwhitlock.com/ -->
                                         alt="" style="object-fit:contain; height:150px; width:100%;">
                                     <div class="d-flex flex-column justify-content-center align-items-center"
                                         style="padding: 12px;">
-                                        <h6>SASS(Syntactically Awesome Stylesheets.)</h6>
+                                        <h6 class="text-center">SASS(Syntactically Awesome Stylesheets.)</h6>
                                     </div>
                                 </div>
                             </div>
@@ -525,7 +528,7 @@ https://www.margaretwhitlock.com/ -->
                                         alt="" style="object-fit:contain; height:150px; width:100%;">
                                     <div class="d-flex flex-column justify-content-center align-items-center"
                                         style="padding: 12px;">
-                                        <h6>Bootstrap</h6>
+                                        <h6 class="text-center">Bootstrap</h6>
                                     </div>
                                 </div>
                             </div>
@@ -535,7 +538,7 @@ https://www.margaretwhitlock.com/ -->
                                         alt="" style="object-fit:contain; height:150px; width:100%;">
                                     <div class="d-flex flex-column justify-content-center align-items-center"
                                         style="padding: 12px;">
-                                        <h6>Javascript</h6>
+                                        <h6 class="text-center">Javascript</h6>
                                     </div>
                                 </div>
                             </div>
@@ -545,7 +548,7 @@ https://www.margaretwhitlock.com/ -->
                                         style="object-fit:cover; height:150px; width:100%;">
                                     <div class="d-flex flex-column justify-content-center align-items-center"
                                         style="padding: 12px;">
-                                        <h6>PHP</h6>
+                                        <h6 class="text-center">PHP</h6>
                                     </div>
                                 </div>
                             </div>
@@ -555,7 +558,7 @@ https://www.margaretwhitlock.com/ -->
                                         alt="" style="object-fit:cover; height:150px; width:100%;">
                                     <div class="d-flex flex-column justify-content-center align-items-center"
                                         style="padding: 12px;">
-                                        <h6>Laravel</h6>
+                                        <h6 class="text-center">Laravel</h6>
                                     </div>
                                 </div>
                             </div>
@@ -565,7 +568,7 @@ https://www.margaretwhitlock.com/ -->
                                         style="object-fit:cover; height:150px; width:100%;">
                                     <div class="d-flex flex-column justify-content-center align-items-center"
                                         style="padding: 12px;">
-                                        <h6>Python</h6>
+                                        <h6 class="text-center">Python</h6>
                                     </div>
                                 </div>
                             </div>
@@ -577,8 +580,10 @@ https://www.margaretwhitlock.com/ -->
 
             {{-- Portfolio Section --}}
             <section id="portfolio" class="job section-bg">
-                <div class="container">
-                    <div class="section-title">
+                <div class="container" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="130"
+                data-aos-offset="100">
+                    <div class="section-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
+                    data-aos-offset="100">
                         <h2>My Portfolio</h2>
                         <p>Showcasing the Projects and Solutions I've Delivered.</p>
                     </div>
@@ -657,8 +662,10 @@ https://www.margaretwhitlock.com/ -->
             <main id="main">
                 <!-- Contact Section -->
                 <section id="contact" class="contact section-bg">
-                    <div class="container">
-                        <div class="section-title">
+                    <div class="container" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="130"
+                    data-aos-offset="100">
+                        <div class="section-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
+                        data-aos-offset="100">
                             <h2>Contact</h2>
                             <p>Get in Touch: Connect with Me Today!</p>
                         </div>

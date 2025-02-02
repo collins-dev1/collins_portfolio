@@ -511,6 +511,16 @@ https://www.margaretwhitlock.com/ -->
                             </div>
                             <div class="col">
                                 <div class="card">
+                                    <img src="{{ asset('collins_portfolio/assets/img/sass.jpeg') }}"
+                                        alt="" style="object-fit:contain; height:150px; width:100%;">
+                                    <div class="d-flex flex-column justify-content-center align-items-center"
+                                        style="padding: 12px;">
+                                        <h6>SASS(Syntactically Awesome Stylesheets.)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
                                     <img src="{{ asset('collins_portfolio/assets/img/apple-touch-icon.png') }}"
                                         alt="" style="object-fit:contain; height:150px; width:100%;">
                                     <div class="d-flex flex-column justify-content-center align-items-center"

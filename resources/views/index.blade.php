@@ -762,7 +762,7 @@ https://www.margaretwhitlock.com/ -->
             <footer id="footer">
                 <div class="container">
                     <div class="copyright">
-                        &copy; Copyright
+                         Designed & Built By Oguno Ikechukwu Collins&copy;
                         <script>
                             document.write(new Date().getFullYear());
                         </script> <strong><span>OG-COLLINS<\> (OGC)</span></strong>. All Rights Reserved

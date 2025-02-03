@@ -178,10 +178,9 @@ https://www.margaretwhitlock.com/ -->
 
                     <div class="row no-gutters">
                         <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"
-                            data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300" data-aos-offset="100">
+                            >
                         </div>
-                        <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-down"
-                            data-aos-duration="1200" data-aos-delay="300" data-aos-offset="100">
+                        <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
                             <div class="content d-flex flex-column justify-content-center px-2">
                                 <h2><strong>OG-COLLINS<\> (OGC)</strong></h2>
                                 <p>Software Developer | Web Developer
@@ -221,10 +220,10 @@ https://www.margaretwhitlock.com/ -->
                 <div class="container">
 
                     <div class="section-title">
-                        <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130" data-aos-offset="100">
+                        <h2>
                             Learn
                             More About Me</h2>
-                        <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="130" data-aos-offset="100">My
+                        <p>My
                             name
                             is Oguno Ikechukwu Collins, a passionate software developer from Ukpo, Dunukofia Local
                             Government Area, Anambra State, Nigeria. I completed my secondary education at Christ the
@@ -249,7 +248,7 @@ https://www.margaretwhitlock.com/ -->
                             in a tech-driven landscape.
                         </p>
                         <br>
-                        <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130" data-aos-offset="100">
+                        <p>
                             My
                             personalized approach starts with understanding
                             your unique needs and delivering tailored
@@ -285,16 +284,14 @@ https://www.margaretwhitlock.com/ -->
                 <div class="container">
 
                     <div class="section-title">
-                        <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="130" data-aos-offset="100">
+                        <h2>
                             My
                             Resume</h2>
                     </div>
 
-                    <div class="row" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="130"
-                        data-aos-offset="100">
+                    <div class="row">
                         <div class="col-lg-6">
-                            <h3 class="resume-title" data-aos="zoom-in" data-aos-duration="1000"
-                                data-aos-delay="130" data-aos-offset="100">Sumary</h3>
+                            <h3 class="resume-title">Sumary</h3>
                             <div class="resume-item pb-0">
                                 <h4>OG-COLLINS<\> (OGC)
                                 </h4>
@@ -366,7 +363,7 @@ https://www.margaretwhitlock.com/ -->
                     </div>
                 </div>
                 <div class="d-flex justify-content-center align-items-center mt-3">
-                    <a href="{{ asset('collins_cv/collins_resume.pdf') }}" download="Collins Resume"
+                    <a href="{{ asset('collins_cv/my_resume.pdf') }}" download="Collins Resume"
                         target="_blank">
                         <button style="background-color: #dd5a92; color:#fff;" class="btn">Download Resume</button>
                     </a>

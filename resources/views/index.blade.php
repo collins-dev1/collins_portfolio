@@ -230,8 +230,7 @@ https://www.margaretwhitlock.com/ -->
                             King
                             College (CKC) Onitsha and pursued the Joint Universities Preliminary Examinations Board (JUPEB) program at Chukwuemeka Odumegwu Ojukwu
                             University. I
-                            further honed my technical skills in computer craft at the Federal Ministry of Labour and
-                            Employment in Enugu and advanced my expertise in full-stack web development at Kodex
+                            further honed my technical skills in full-stack web development at Kodex
                             Limited,
                             Anambra State. With over three years of experience in software and web development, I
                             specialize

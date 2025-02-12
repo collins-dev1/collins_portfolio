@@ -566,6 +566,16 @@ https://www.margaretwhitlock.com/ -->
                                     </div>
                                 </div>
                             </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="{{ asset('collins_portfolio/assets/img/react_logo.jpeg') }}" alt=""
+                                        style="object-fit:cover; height:150px; width:100%;">
+                                    <div class="d-flex flex-column justify-content-center align-items-center"
+                                        style="padding: 12px;">
+                                        <h6 class="text-center">React Js</h6>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 

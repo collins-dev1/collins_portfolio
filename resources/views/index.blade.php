@@ -363,7 +363,7 @@ https://www.margaretwhitlock.com/ -->
                 </div>
                 {{-- my certificate --}}
 
-                <div class="d-flex flex-column justify-content center align-items-center px-5 mt-3">
+                <div class="d-flex flex-column justify-content center align-items-center mt-3">
                     <img src="{{asset('collins_cv/my_maincert.jpg')}}" alt="" width="100%" height="300px" class="object-fit-contain">
                 </div>
                 <div class="d-flex justify-content-center align-items-center mt-3">

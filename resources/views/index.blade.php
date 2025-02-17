@@ -364,7 +364,7 @@ https://www.margaretwhitlock.com/ -->
                 {{-- my certificate --}}
 
                 <div class="d-flex flex-column justify-content center align-items-center px-5 mt-3">
-                    <img src="{{asset('collins_cv/my_maincert.jpg')}}" alt="" class="object-fit-cover">
+                    <img src="{{asset('collins_cv/my_maincert.jpg')}}" alt="" width="80%" height="300px" class="object-fit-cover">
                 </div>
                 <div class="d-flex justify-content-center align-items-center mt-3">
                     <a href="{{ asset('collins_cv/my_resume.pdf') }}" download="Collins Resume"

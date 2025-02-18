@@ -534,7 +534,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/my_picture.jpg") center center no-repeat;
+  background: url("../img/portfolio/edit_pic.webp") center center no-repeat;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.7);
   border-radius: 50%;
   background-size:80%;

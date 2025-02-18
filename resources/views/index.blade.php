@@ -721,7 +721,7 @@ https://www.margaretwhitlock.com/ -->
                                         <a href="https://www.linkedin.com/in/og-collins" target="_blank">
                                             <i class="ri-linkedin-box-fill fs-3"></i>
                                         </a>
-                                        <a href="https://www.instagram.com/ogtechhub" target="_blank">
+                                        <a href="https://www.instagram.com/og__collins" target="_blank">
                                             <i class="ri-instagram-fill fs-3"></i>
                                         </a>
                                         <a href="https://www.tiktok.com/@ogtechhub" target="_blank">

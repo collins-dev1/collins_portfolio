@@ -539,7 +539,7 @@ section {
   border-radius: 50%;
   background-size:80%;
   min-height: 250px;
-  min-width: 250px;
+  width: 250px;
   margin-inline: 2px;
 }
 

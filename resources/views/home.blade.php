@@ -33,7 +33,7 @@
                 o._.push(arguments)
             };
             o._ = [];
-            s = d.getElementsByTagName('script')[10];
+            s = d.getElementsByTagName('script')[3];
             c = d.createElement('script');
             c.type = 'text/javascript';
             c.charset = 'utf-8';

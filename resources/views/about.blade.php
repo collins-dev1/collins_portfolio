@@ -62,7 +62,7 @@
     <!-- Header -->
     <header class="glass-header">
         <div class="container header-container">
-            <a href="index.html">
+            <a href="{{url('/')}}">
                 <div class="logo">
                     <span class="pxr">OG-</span><span class="labs">COLLINS</span>
                     <div class="logo-pulse"></div>
@@ -71,11 +71,11 @@
 
             <nav class="desktop-nav">
                 <ul>
-                    <li><a href="index.html" class="nav-link"><span>01. </span>Home</a></li>
-                    <li><a href="about.html" class="nav-link active"><span>02. </span>About</a></li>
-                    <li><a href="project.html" class="nav-link"><span>03. </span>Projects</a></li>
-                    <li><a href="blog.html" class="nav-link"><span>04. </span>Blogs</a></li>
-                    <li><a href="contact.html" class="nav-link"><span>05. </span>Contact</a></li>
+                    <li><a href="{{url('/')}}" class="nav-link"><span>01. </span>Home</a></li>
+                    <li><a href="{{route('about')}}" class="nav-link active"><span>02. </span>About</a></li>
+                    <li><a href="{{route('project')}}" class="nav-link"><span>03. </span>Projects</a></li>
+                    <li><a href="{{route('blog')}}" class="nav-link"><span>04. </span>Blogs</a></li>
+                    <li><a href="{{route('contact')}}" class="nav-link"><span>05. </span>Contact</a></li>
                     <li><a href="" class="nav-link"><span>06. </span>Resume</a></li>
                 </ul>
             </nav>
@@ -97,11 +97,11 @@
             <i class="fas fa-times"></i>
         </div>
         <ul>
-            <li><a href="index.html" class="nav-link"><span>01. </span>Home</a></li>
-            <li><a href="about.html" class="nav-link active"><span>02. </span>About</a></li>
-            <li><a href="project.html" class="nav-link"><span>03. </span>Projects</a></li>
-            <li><a href="blog.html" class="nav-link"><span>04. </span>Blogs</a></li>
-            <li><a href="contact.html" class="nav-link"><span>05. </span>Contact</a></li>
+            <li><a href="{{url('/')}}" class="nav-link"><span>01. </span>Home</a></li>
+            <li><a href="{{route('about')}}" class="nav-link active"><span>02. </span>About</a></li>
+            <li><a href="{{route('project')}}" class="nav-link"><span>03. </span>Projects</a></li>
+            <li><a href="{{route('blog')}}" class="nav-link"><span>04. </span>Blogs</a></li>
+            <li><a href="{{route('contact')}}" class="nav-link"><span>05. </span>Contact</a></li>
             <li><a href="" class="nav-link"><span>06. </span>Resume</a></li>
         </ul>
     </div>
@@ -188,7 +188,7 @@
                     </div>
                 </div>
                 <div class="tech-button">
-                    <a href="">
+                    <a href="{{ asset('collins_cv/my_resume.pdf') }}" target="_blank" download="OG-COLLINS RESUME">
                         <button>Download CV <i class="fas fa-scroll"></i></button>
                     </a>
                 </div>
@@ -328,7 +328,7 @@
                         </div>
                     </div>
 
-                   <a href="project.html">
+                   <a href="{{route('project')}}">
                     <div class="downpointer">
                         <div class="arrow">
                             <i class="fas fa-arrow-down"></i>
@@ -350,9 +350,11 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <div class="logo">
+                    <a href="{{url('/')}}">
+                        <div class="logo">
                         <span class="pxr">OG-</span><span class="labs">COLLINS</span>
                     </div>
+                    </a>
                     <p>Build fast. Build smart. Build clean. I code. You scroll</p>
                     <div class="social-links">
                         <a href="https://x.com/XuccessfulColl1" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -371,11 +373,11 @@
                 <div class="footer-links">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="project.html">Project</a></li>
-                        <li><a href="blog.html">Blogs</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="{{url('/')}}">Home</a></li>
+                        <li><a href="{{route('about')}}">About</a></li>
+                        <li><a href="{{route('project')}}">Project</a></li>
+                        <li><a href="{{route('blog')}}">Blogs</a></li>
+                        <li><a href="{{route('contact')}}">Contact</a></li>
                         <li><a href="">Resume</a></li>
                     </ul>
                 </div>
@@ -384,9 +386,9 @@
                     <h3>Contact Me</h3>
                     <ul>
                         <li><i class="fas fa-envelope"></i> <a
-                                href="mailto:collinsxuccessful39@gmail.com">OG-COLLINS</a> </li>
+                                href="mailto:collinsxuccessful39@gmail.com" target="_blank">OG-COLLINS</a> </li>
                         <li><i class="fa-solid fa-phone"></i>
-                            <a href="tel:+2347067668473">+234 706 766 8473</a>
+                            <a href="tel:+2347067668473" target="_blank">+234 706 766 8473</a>
                         </li>
                         <li><i class="fas fa-map-marker-alt"></i> Decentralized, Everywhere</li>
                     </ul>
@@ -398,7 +400,7 @@
                 <!-- Blockchain Verification Badge -->
                 <div class="verification-badge">
                     <span>This portfolio is powered & designed by <a href="https://github.com/collins-dev1"
-                            class="cp-log">collins-dev1</a></span>
+                            class="cp-log" target="_blank">collins-dev1</a></span>
                     <i class="fas fa-shield-alt"></i>
                 </div>
             </div>

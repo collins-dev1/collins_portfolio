@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /           # Public frontend
+Disallow: /admin/  # Fx backend panels
+Disallow: /api/    # Fx API routes
+Disallow: /private/ # Fx auth-protected content
+Sitemap: https://5xg-labs.github.io/Ofc-website/sitemap.xml

@@ -1564,7 +1564,7 @@ h1, h2, h3, h4, h5, h6 {
       }
 
       .education-text p{
-        color: var(--lighttext) !important;
+        color: var(--light) !important;
         font-size: 13px !important;
         text-align: justify !important;
       }
@@ -2344,7 +2344,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .tech-skills h6{
     font-size: 1rem;
-    color: #ffffffc0;
+    color: var(--light);
   }
 
   .skill-set{

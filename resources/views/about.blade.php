@@ -132,7 +132,7 @@
                         Development Tutor at <span><a href="https://digitaldreamsng.com" target="_blank">Digital Dreams
                                 Limited</a></span>, where I successfully guided aspiring developers
                         through the fundamentals of modern web technologies. Today, I continue this journey at
-                        Solotech.ai Limited, helping students build strong foundations and real-world problem-solving
+                        <span><a href="https://solotech-ai-ltd.com/" target="_blank">Solotech.ai Limited</a></span>, helping students build strong foundations and real-world problem-solving
                         skills in software development.</p>
 
                     <p>With experience spanning UI/UX design using Figma, building responsive websites, and mentoring
@@ -299,8 +299,8 @@
                                         <span><i class="fas fa-calendar-alt"></i> 2025 - Present</span>
                                         <h6>Software Development / UI/UX Tutor and Engineer</h6>
                                         <h3>SoloTech.AI Limited</h3>
-                                        <p>As a Software Development and UI/UX Tutor and Engineer at Solotech.ai
-                                            Limited, I am actively contributing to the growth of a new and ambitious
+                                        <p>As a Software Development and UI/UX Tutor and Engineer at <a href="https://solotech-ai-ltd.com/" target="_blank">Solotech.ai
+                                            Limited</a>, I am actively contributing to the growth of a new and ambitious
                                             tech company. In addition to my technical roles, I serve as the Manager,
                                             helping to shape the company's vision, mentor aspiring developers, and drive
                                             innovative projects. My role combines leadership, technical expertise, and a

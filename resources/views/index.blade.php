@@ -107,22 +107,31 @@
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '749069347900921');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=749069347900921&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '749069347900921');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=749069347900921&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 
     <!-- =======================================================
     * Template Name: Personal
@@ -152,11 +161,11 @@ https://www.margaretwhitlock.com/ -->
     {{-- Preloading --}}
     <div id="preloader">
         <div class="loading-dots">
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
         </div>
-      </div>
+    </div>
 
 
 
@@ -194,8 +203,8 @@ https://www.margaretwhitlock.com/ -->
                 <div class="container">
 
                     <div class="row no-gutters">
-                        <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"
-                            >
+                        <div
+                            class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start">
                         </div>
                         <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
                             <div class="content d-flex flex-column justify-content-center px-2">
@@ -245,7 +254,8 @@ https://www.margaretwhitlock.com/ -->
                             is Oguno Ikechukwu Collins, a passionate software developer from Ukpo, Dunukofia Local
                             Government Area, Anambra State, Nigeria. I completed my secondary education at Christ the
                             King
-                            College (CKC) Onitsha and pursued the Joint Universities Preliminary Examinations Board (JUPEB) program at Chukwuemeka Odumegwu Ojukwu
+                            College (CKC) Onitsha and pursued the Joint Universities Preliminary Examinations Board
+                            (JUPEB) program at Chukwuemeka Odumegwu Ojukwu
                             University. I
                             further honed my technical skills in full-stack web development at Kodex
                             Limited,
@@ -326,9 +336,11 @@ https://www.margaretwhitlock.com/ -->
 
                             <h3 class="resume-title">Education Certifications</h3>
                             <div class="resume-item">
-                                <h4>West African Senior School Certificate Examination(WASSCE) -> Christ the king College Onitsha, Anambra State Nigeria.</h4>
+                                <h4>West African Senior School Certificate Examination(WASSCE) -> Christ the king
+                                    College Onitsha, Anambra State Nigeria.</h4>
                                 <h5>2018</h5>
-                                <h4>Joint Universities Preliminary Examinations Board(JUPEB) PROGRAM -> Chukwuemeka Odumegwu Ojukwu University Igbariam, Anambra State
+                                <h4>Joint Universities Preliminary Examinations Board(JUPEB) PROGRAM -> Chukwuemeka
+                                    Odumegwu Ojukwu University Igbariam, Anambra State
                                     Nigeria.
                                 </h4>
                                 <h5>2019 - 2020</h5>
@@ -338,7 +350,8 @@ https://www.margaretwhitlock.com/ -->
                                 </h4>
                                 <h4>Computer Craft Work</h4>
                                 <h5>2021 - 2023</h5>
-                                <h4>FULL-STACK WEB DEVELOPMENT PROGRAM -> Kodex Limited <a href="https://kodexafrica.com/" target="_blank">www.kodexafrica.com</a></h4>
+                                <h4>FULL-STACK WEB DEVELOPMENT PROGRAM -> Kodex Limited <a
+                                        href="https://kodexafrica.com/" target="_blank">www.kodexafrica.com</a></h4>
                                 <h5>2023</h5>
                             </div>
                         </div>
@@ -380,11 +393,11 @@ https://www.margaretwhitlock.com/ -->
                 </div>
                 {{-- my certificate --}}
                 <div class="d-flex flex-column justify-content center align-items-center px-3 mt-3">
-                    <img src="{{asset('collins_cv/my_maincert.jpg')}}" alt="" width="95%" height="370px">
+                    <img src="{{ asset('collins_cv/my_maincert.jpg') }}" alt="" width="95%"
+                        height="370px">
                 </div>
                 <div class="d-flex justify-content-center align-items-center mt-3">
-                    <a href="{{ asset('collins_cv/my_resume.pdf') }}" download="Collins Resume"
-                        target="_blank">
+                    <a href="{{ asset('collins_cv/my_resume.pdf') }}" download="Collins Resume" target="_blank">
                         <button style="background-color: #dd5a92; color:#fff;" class="btn">Download Resume</button>
                     </a>
                 </div>
@@ -528,8 +541,8 @@ https://www.margaretwhitlock.com/ -->
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="{{ asset('collins_portfolio/assets/img/sass.jpeg') }}"
-                                        alt="" style="object-fit:contain; height:150px; width:100%;">
+                                    <img src="{{ asset('collins_portfolio/assets/img/sass.jpeg') }}" alt=""
+                                        style="object-fit:contain; height:150px; width:100%;">
                                     <div class="d-flex flex-column justify-content-center align-items-center"
                                         style="padding: 12px;">
                                         <h6 class="text-center">SASS(Syntactically Awesome Stylesheets.)</h6>
@@ -588,8 +601,8 @@ https://www.margaretwhitlock.com/ -->
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="{{ asset('collins_portfolio/assets/img/react_logo.jpeg') }}" alt=""
-                                        style="object-fit:cover; height:150px; width:100%;">
+                                    <img src="{{ asset('collins_portfolio/assets/img/react_logo.jpeg') }}"
+                                        alt="" style="object-fit:cover; height:150px; width:100%;">
                                     <div class="d-flex flex-column justify-content-center align-items-center"
                                         style="padding: 12px;">
                                         <h6 class="text-center">React Js</h6>
@@ -715,13 +728,15 @@ https://www.margaretwhitlock.com/ -->
                                             <br>
                                             <div class="d-flex align-items-center">
                                                 <i class="bi bi-geo-alt"></i>
-                                                <p>PLOT 224 NEPA ESTATE POCKET LAYOUT NKWELLE EZUNAKA, ANAMBRA STATE NIGERIA
+                                                <p>PLOT 224 NEPA ESTATE POCKET LAYOUT NKWELLE EZUNAKA, ANAMBRA STATE
+                                                    NIGERIA
                                                 </p>
                                             </div>
                                             </br>
                                             <div class="d-flex align-items-center">
                                                 <i class="bi bi-telephone"></i>
-                                                <p><a href="tel:+2347067668473" class="__cf_email__">+2347067668473</a>
+                                                <p><a href="tel:+2347067668473"
+                                                        class="__cf_email__">+2347067668473</a>
                                                 </p>
                                             </div>
 
@@ -789,7 +804,7 @@ https://www.margaretwhitlock.com/ -->
             <footer id="footer">
                 <div class="container">
                     <div class="copyright">
-                         Designed & Built By Oguno Ikechukwu Collins&copy;
+                        Designed & Built By Oguno Ikechukwu Collins&copy;
                         <script>
                             document.write(new Date().getFullYear());
                         </script> <strong><span>OG-COLLINS<\> (OGC)</span></strong>. All Rights Reserved

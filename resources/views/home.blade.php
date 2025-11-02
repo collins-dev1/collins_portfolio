@@ -477,34 +477,35 @@
             </div>
 
             <!-- WhatsApp Floating Icon -->
-    <a href="https://wa.me/2347067668473" class="whatsapp-float" target="_blank" title="Chat with me on WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+            <a href="https://wa.me/2347067668473" class="whatsapp-float" target="_blank"
+                title="Chat with me on WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
 
-    <style>
-        .whatsapp-float {
-    position: fixed;
-    bottom: 100px;
-    right: 20px;
-    background-color: #25d366;
-    color: white;
-    border-radius: 50%;
-    font-size: 28px;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    z-index: 1000;
-    transition: all 0.3s ease;
-}
+            <style>
+                .whatsapp-float {
+                    position: fixed;
+                    bottom: 100px;
+                    right: 20px;
+                    background-color: #25d366;
+                    color: white;
+                    border-radius: 50%;
+                    font-size: 28px;
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                    z-index: 1000;
+                    transition: all 0.3s ease;
+                }
 
-.whatsapp-float:hover {
-    background-color: #20b957;
-    transform: scale(1.1);
-}
-    </style>
+                .whatsapp-float:hover {
+                    background-color: #20b957;
+                    transform: scale(1.1);
+                }
+            </style>
         </div>
         <div class="scroll-up" onclick="scrollToTop()">
             <i class="fas fa-arrow-up"></i>

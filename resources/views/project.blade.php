@@ -115,6 +115,25 @@
                 <div class="card-holder">
                     <div class="card">
                         <div class="card-header">
+                            <img src="{{ asset('my_portfolio/img/domiland.png') }}" alt="">
+                        </div>
+                        <div class="icon">
+                            <a href="https://domiclinic.net/" target="_blank"><i class="fas fa-rocket"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Domi Clinic</h5>
+                            <p class="card-text">
+                                Designed and developed a responsive website for Domi Clinic, a modern healthcare center
+                                dedicated to providing quality medical services and patient care. The website features
+                                an intuitive UI/UX design, online appointment booking, service listings, and a
+                                patient-centered layout for easy navigation. Built with HTML, CSS, JavaScript, and
+                                Laravel, the site ensures fast loading, mobile optimization, and a professional digital
+                                presence that enhances trust and accessibility for patients seeking medical care.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
                             <img src="{{ asset('my_portfolio/img/solotech.png') }}" alt="">
                         </div>
                         <div class="icon">

@@ -120,24 +120,33 @@
                     </div>
                 </div>
                 <div class="about-para">
-                    <p>Welcome! I'm Oguno Ikechukwu Collins, a passionate Software and Web Developer with strong
-                        expertise in building dynamic, user-focused web applications.</p>
+                    <p>Welcome! I'm Oguno Ikechukwu Collins, a passionate Software, Web, and Mobile App Developer with
+                        strong
+                        expertise in building dynamic, user-focused digital solutions across multiple platforms.</p>
 
                     <p>My journey began at <span><a href="https://kodexafrica.com" target="_blank">Kodex
                                 Africa</a></span>, where I honed my skills in full-stack development — mastering
-                        front-end technologies like HTML, CSS, Bootstrap, JavaScript, React and expanding into back-end
-                        development with Laravel, Python, and lots more</p>
+                        front-end technologies like HTML, CSS, Bootstrap, JavaScript, React, and expanding into back-end
+                        development with Laravel, Python, and more. Over time, I also delved into mobile app development
+                        using
+                        frameworks like Flutter and React Native to create seamless cross-platform experiences.</p>
 
                     <p>Beyond development, I have a strong passion for teaching and mentoring others. I started as a Web
                         Development Tutor at <span><a href="https://digitaldreamsng.com" target="_blank">Digital Dreams
-                                Limited</a></span>, where I successfully guided aspiring developers
-                        through the fundamentals of modern web technologies. Today, I continue this journey at
-                        <span><a href="https://solotech-ai-ltd.com/" target="_blank">Solotech.ai Limited</a></span>, helping students build strong foundations and real-world problem-solving
-                        skills in software development.</p>
+                                Limited</a></span>, where I successfully guided aspiring developers through the
+                        fundamentals of
+                        modern web technologies. Today, I continue this journey at <span><a
+                                href="https://solotech-ai-ltd.com" target="_blank">Solotech.ai Limited</a></span>,
+                        helping students
+                        build
+                        strong foundations and real-world problem-solving skills in software and mobile app development.
+                    </p>
 
-                    <p>With experience spanning UI/UX design using Figma, building responsive websites, and mentoring
-                        future developers, I am dedicated to creating impactful digital solutions and empowering the
-                        next generation of tech talent.</p>
+                    <p>With experience spanning UI/UX design using Figma, building responsive websites, developing
+                        mobile
+                        applications, and mentoring future developers, I am dedicated to creating impactful digital
+                        products
+                        and empowering the next generation of tech talent.</p>
 
                     <p>I am motivated by the challenge of turning ideas into innovative products, growing within the
                         evolving tech landscape, and making meaningful contributions to the global tech community.</p>
@@ -184,11 +193,23 @@
                         <span>&#128073; Git</span>
                     </div>
                     <div>
+                        <span>&#128073; Github</span>
+                    </div>
+                    <div>
+                        <span>&#128073; Flutter</span>
+                    </div>
+                    <div>
+                        <span>&#128073; Dart</span>
+                    </div>
+                    <div>
+                        <span>&#128073; C++</span>
+                    </div>
+                    <div>
                         <span>&#128073; Web3</span>
                     </div>
                 </div>
                 <div class="tech-button">
-                    <a href="{{ asset('collins_cv/my_resume.pdf') }}" target="_blank" download="OG-COLLINS RESUME">
+                    <a href="">
                         <button>Download CV <i class="fas fa-scroll"></i></button>
                     </a>
                 </div>

@@ -21,14 +21,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('my_portfolio/css/styles.css')}}">
-    <link rel="icon" href="{{asset('my_portfolio/img/og_logo.png')}}"
-        type="image/x-icon" />
+    <link rel="stylesheet" href="{{ asset('my_portfolio/css/styles.css') }}">
+    <link rel="icon" href="{{ asset('my_portfolio/img/og_logo.png') }}" type="image/x-icon" />
 </head>
 
 <body>
     <script>
-        window.addEventListener('load', function () {
+        window.addEventListener('load', function() {
             setTimeout(() => {
                 document.querySelector('.preloader').style.display = 'none';
             }, 1500); // 5000ms = 5 seconds
@@ -59,7 +58,7 @@
     <!-- Header -->
     <header class="glass-header">
         <div class="container header-container">
-            <a href="{{url('/')}}">
+            <a href="{{ url('/') }}">
                 <div class="logo">
                     <span class="pxr">OG-</span><span class="labs">COLLINS</span>
                     <div class="logo-pulse"></div>
@@ -68,11 +67,11 @@
 
             <nav class="desktop-nav">
                 <ul>
-                    <li><a href="{{url('/')}}" class="nav-link active"><span>01. </span>Home</a></li>
-                    <li><a href="{{route('about')}}" class="nav-link"><span>02. </span>About</a></li>
-                    <li><a href="{{route('project')}}" class="nav-link"><span>03. </span>Projects</a></li>
-                    <li><a href="{{route('blog')}}" class="nav-link"><span>04. </span>Blogs</a></li>
-                    <li><a href="{{route('contact')}}" class="nav-link"><span>05. </span>Contact</a></li>
+                    <li><a href="{{ url('/') }}" class="nav-link active"><span>01. </span>Home</a></li>
+                    <li><a href="{{ route('about') }}" class="nav-link"><span>02. </span>About</a></li>
+                    <li><a href="{{ route('project') }}" class="nav-link"><span>03. </span>Projects</a></li>
+                    <li><a href="{{ route('blog') }}" class="nav-link"><span>04. </span>Blogs</a></li>
+                    <li><a href="{{ route('contact') }}" class="nav-link"><span>05. </span>Contact</a></li>
                     <li><a href="" class="nav-link"><span>06. </span>Resume</a></li>
                 </ul>
             </nav>
@@ -94,11 +93,11 @@
             <i class="fas fa-times"></i>
         </div>
         <ul>
-            <li><a href="{{url('/')}}" class="nav-link active"><span>01. </span>Home</a></li>
-            <li><a href="{{route('about')}}" class="nav-link"><span>02. </span>About</a></li>
-            <li><a href="{{route('project')}}" class="nav-link"><span>03. </span>Projects</a></li>
-            <li><a href="{{route('blog')}}" class="nav-link"><span>04. </span>Blogs</a></li>
-            <li><a href="{{route('contact')}}" class="nav-link"><span>05. </span>Contact</a></li>
+            <li><a href="{{ url('/') }}" class="nav-link active"><span>01. </span>Home</a></li>
+            <li><a href="{{ route('about') }}" class="nav-link"><span>02. </span>About</a></li>
+            <li><a href="{{ route('project') }}" class="nav-link"><span>03. </span>Projects</a></li>
+            <li><a href="{{ route('blog') }}" class="nav-link"><span>04. </span>Blogs</a></li>
+            <li><a href="{{ route('contact') }}" class="nav-link"><span>05. </span>Contact</a></li>
             <li><a href="" class="nav-link"><span>06. </span>Resume</a></li>
         </ul>
     </div>
@@ -146,7 +145,8 @@
                 <a href="https://wa.me/2347067668473" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 <a href="https://web.facebook.com/ogtechhub" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/og__collins" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/og-collins" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/og-collins" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
                 <a href="https://www.tiktok.com/@ogtechhub" target="_blank"><i class="fab fa-tiktok"></i></a>
             </div>
             <div class="circleline-holder">
@@ -161,10 +161,10 @@
                 </p>
 
                 <div class="about-button">
-                    <a href="{{route('about')}}">
+                    <a href="{{ route('about') }}">
                         <button>About me <i class="fas fa-arrow-right"></i></button>
                     </a>
-                    <img src="{{asset('my_portfolio/img/codepi1.png')}}" alt="">
+                    <img src="{{ asset('my_portfolio/img/codepi1.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -218,10 +218,23 @@
     <section class="services" id="home">
         <div class="container">
             <h2 class="section-title">My Services</h2>
-            <p class="section-subtitle">Whether it’s a landing page, full website, or mentorship — I’ve got you covered.
+            <p class="section-subtitle">Whether it’s a landing page, full website, or mentorship — I’ve got you
+                covered.
             </p>
 
             <div class="services-grid">
+                <div class="service-card" data-tilt>
+                    <div class="card-icon">
+
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile App Development</h3>
+                    <p>Designing and developing responsive and user-friendly mobile applications using modern frameworks
+                        and technologies. Focused on creating seamless user experiences, optimized performance, and
+                        cross-platform compatibility for both Android and iOS devices.</p>
+                    <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <div class="card-hover-effect"></div>
+                </div>
                 <div class="service-card" data-tilt>
                     <div class="card-icon">
 
@@ -401,16 +414,20 @@
             </div>
         </div>
     </section>
+    <!-- WhatsApp Floating Icon -->
+    <a href="https://wa.me/2347067668473" class="whatsapp-float" target="_blank" title="Chat with me on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
     <!-- Footer -->
     <footer class="footer" id="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <a href="{{url('/')}}">
+                    <a href="{{ url('/') }}">
                         <div class="logo">
-                        <span class="pxr">OG-</span><span class="labs">COLLINS</span>
-                    </div>
+                            <span class="pxr">OG-</span><span class="labs">COLLINS</span>
+                        </div>
                     </a>
                     <p>Build fast. Build smart. Build clean. I code. You scroll</p>
                     <div class="social-links">
@@ -430,11 +447,11 @@
                 <div class="footer-links">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="{{url('/')}}">Home</a></li>
-                        <li><a href="{{route('about')}}">About</a></li>
-                        <li><a href="{{route('project')}}">Project</a></li>
-                        <li><a href="{{route('blog')}}">Blogs</a></li>
-                        <li><a href="{{route('contact')}}">Contact</a></li>
+                        <li><a href="{{ url('/') }}">Home</a></li>
+                        <li><a href="{{ route('about') }}">About</a></li>
+                        <li><a href="{{ route('project') }}">Project</a></li>
+                        <li><a href="{{ route('blog') }}">Blogs</a></li>
+                        <li><a href="{{ route('contact') }}">Contact</a></li>
                         <li><a href="">Resume</a></li>
                     </ul>
                 </div>
@@ -442,8 +459,8 @@
                 <div class="footer-contact">
                     <h3>Contact Me</h3>
                     <ul>
-                        <li><i class="fas fa-envelope"></i> <a
-                                href="mailto:collinsxuccessful39@gmail.com" target="_blank">OG-COLLINS</a> </li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:collinsxuccessful39@gmail.com"
+                                target="_blank">OG-COLLINS</a> </li>
                         <li><i class="fa-solid fa-phone"></i>
                             <a href="tel:+2347067668473" target="_blank">+234 706 766 8473</a>
                         </li>
@@ -467,7 +484,10 @@
         </div>
         <script>
             function scrollToTop() {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
             }
         </script>
 
@@ -476,7 +496,7 @@
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
-    <script src="{{asset('my_portfolio/js/script.js')}}"></script>
+    <script src="{{ asset('my_portfolio/js/script.js') }}"></script>
 </body>
 
 </html>

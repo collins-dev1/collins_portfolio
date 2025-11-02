@@ -414,10 +414,7 @@
             </div>
         </div>
     </section>
-    <!-- WhatsApp Floating Icon -->
-    <a href="https://wa.me/2347067668473" class="whatsapp-float" target="_blank" title="Chat with me on WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+
 
     <!-- Footer -->
     <footer class="footer" id="footer">
@@ -478,6 +475,11 @@
                     <i class="fas fa-shield-alt"></i>
                 </div>
             </div>
+
+            <!-- WhatsApp Floating Icon -->
+    <a href="https://wa.me/2347067668473" class="whatsapp-float" target="_blank" title="Chat with me on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
         </div>
         <div class="scroll-up" onclick="scrollToTop()">
             <i class="fas fa-arrow-up"></i>

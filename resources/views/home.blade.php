@@ -490,8 +490,11 @@
     color: white;
     border-radius: 50%;
     font-size: 28px;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     z-index: 1000;
     transition: all 0.3s ease;

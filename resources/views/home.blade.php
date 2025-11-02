@@ -484,13 +484,13 @@
     <style>
         .whatsapp-float {
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     right: 20px;
     background-color: #25d366;
     color: white;
     border-radius: 50%;
     font-size: 28px;
-    padding: 14px 16px;
+    padding: 14px 14px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     z-index: 1000;
     transition: all 0.3s ease;

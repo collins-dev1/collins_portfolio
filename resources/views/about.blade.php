@@ -116,7 +116,7 @@
             <div class="about-img">
                 <div>
                     <div class="morphing-frame">
-                        <img src="{{asset('my_portfolio/img/my_picture1.jpg')}}" alt="My Photo" />
+                        <img src="{{asset('my_portfolio/img/mypicture.jpg')}}" alt="My Photo" />
                     </div>
                 </div>
                 <div class="about-para">

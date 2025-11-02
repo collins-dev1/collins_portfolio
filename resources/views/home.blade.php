@@ -485,7 +485,7 @@
         .whatsapp-float {
     position: fixed;
     bottom: 20px;
-    left: 20px;
+    right: 20px;
     background-color: #25d366;
     color: white;
     border-radius: 50%;

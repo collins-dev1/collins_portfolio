@@ -209,7 +209,7 @@
                     </div>
                 </div>
                 <div class="tech-button">
-                    <a href="">
+                    <a href="{{asset('collins_cv/my_resume.pdf')}}" download="collins_resume.pdf">
                         <button>Download CV <i class="fas fa-scroll"></i></button>
                     </a>
                 </div>

@@ -297,7 +297,7 @@
 
                 </div>
             </div>
-            <a href="" target="_blank">
+            <a href="https://github.com/collins-dev1" target="_blank">
                 <div class="projectpointer">
                     <div class="arrow">
                         <i class="fas fa-arrow-down"></i>

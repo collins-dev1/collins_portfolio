@@ -76,7 +76,7 @@
                     <li><a href="{{route('project')}}" class="nav-link"><span>03. </span>Projects</a></li>
                     <li><a href="{{route('blog')}}" class="nav-link"><span>04. </span>Blogs</a></li>
                     <li><a href="{{route('contact')}}" class="nav-link"><span>05. </span>Contact</a></li>
-                    <li><a href="" class="nav-link"><span>06. </span>Resume</a></li>
+                    <li><a href="{{asset('collins_cv/my_resume.pdf')}}" target="_blank" class="nav-link"><span>06. </span>Resume</a></li>
                 </ul>
             </nav>
 
@@ -102,7 +102,7 @@
             <li><a href="{{route('project')}}" class="nav-link"><span>03. </span>Projects</a></li>
             <li><a href="{{route('blog')}}" class="nav-link"><span>04. </span>Blogs</a></li>
             <li><a href="{{route('contact')}}" class="nav-link"><span>05. </span>Contact</a></li>
-            <li><a href="" class="nav-link"><span>06. </span>Resume</a></li>
+            <li><a href="{{asset('collins_cv/my_resume.pdf')}}" target="_blank" class="nav-link"><span>06. </span>Resume</a></li>
         </ul>
     </div>
 
@@ -399,7 +399,7 @@
                         <li><a href="{{route('project')}}">Project</a></li>
                         <li><a href="{{route('blog')}}">Blogs</a></li>
                         <li><a href="{{route('contact')}}">Contact</a></li>
-                        <li><a href="">Resume</a></li>
+                        <li><a href="{{asset('collins_cv/my_resume.pdf')}}" target="_blank">Resume</a></li>
                     </ul>
                 </div>
 

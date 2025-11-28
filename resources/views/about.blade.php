@@ -21,17 +21,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('my_portfolio/css/styles.css')}}">
-    <link rel="icon" href="{{asset('my_portfolio/img/og_logo.png')}}" type="image/x-icon" />
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+    <link rel="stylesheet" href="{{ asset('my_portfolio/css/styles.css') }}">
+    <link rel="icon" href="{{ asset('my_portfolio/img/og_logo.png') }}" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
     <script>
-        window.addEventListener('load', function () {
+        window.addEventListener('load', function() {
             setTimeout(() => {
                 document.querySelector('.preloader').style.display = 'none';
             }, 1500); // 5000ms = 5 seconds
@@ -62,7 +59,7 @@
     <!-- Header -->
     <header class="glass-header">
         <div class="container header-container">
-            <a href="{{url('/')}}">
+            <a href="{{ url('/') }}">
                 <div class="logo">
                     <span class="pxr">OG-</span><span class="labs">COLLINS</span>
                     <div class="logo-pulse"></div>
@@ -71,12 +68,13 @@
 
             <nav class="desktop-nav">
                 <ul>
-                    <li><a href="{{url('/')}}" class="nav-link"><span>01. </span>Home</a></li>
-                    <li><a href="{{route('about')}}" class="nav-link active"><span>02. </span>About</a></li>
-                    <li><a href="{{route('project')}}" class="nav-link"><span>03. </span>Projects</a></li>
-                    <li><a href="{{route('blog')}}" class="nav-link"><span>04. </span>Blogs</a></li>
-                    <li><a href="{{route('contact')}}" class="nav-link"><span>05. </span>Contact</a></li>
-                    <li><a href="{{asset('collins_cv/my_resume.pdf')}}" target="_blank" class="nav-link"><span>06. </span>Resume</a></li>
+                    <li><a href="{{ url('/') }}" class="nav-link"><span>01. </span>Home</a></li>
+                    <li><a href="{{ route('about') }}" class="nav-link active"><span>02. </span>About</a></li>
+                    <li><a href="{{ route('project') }}" class="nav-link"><span>03. </span>Projects</a></li>
+                    <li><a href="{{ route('blog') }}" class="nav-link"><span>04. </span>Blogs</a></li>
+                    <li><a href="{{ route('contact') }}" class="nav-link"><span>05. </span>Contact</a></li>
+                    <li><a href="{{ asset('collins_cv/my_resume.pdf') }}" target="_blank" class="nav-link"><span>06.
+                            </span>Resume</a></li>
                 </ul>
             </nav>
 
@@ -97,12 +95,13 @@
             <i class="fas fa-times"></i>
         </div>
         <ul>
-            <li><a href="{{url('/')}}" class="nav-link"><span>01. </span>Home</a></li>
-            <li><a href="{{route('about')}}" class="nav-link active"><span>02. </span>About</a></li>
-            <li><a href="{{route('project')}}" class="nav-link"><span>03. </span>Projects</a></li>
-            <li><a href="{{route('blog')}}" class="nav-link"><span>04. </span>Blogs</a></li>
-            <li><a href="{{route('contact')}}" class="nav-link"><span>05. </span>Contact</a></li>
-            <li><a href="{{asset('collins_cv/my_resume.pdf')}}" target="_blank" class="nav-link"><span>06. </span>Resume</a></li>
+            <li><a href="{{ url('/') }}" class="nav-link"><span>01. </span>Home</a></li>
+            <li><a href="{{ route('about') }}" class="nav-link active"><span>02. </span>About</a></li>
+            <li><a href="{{ route('project') }}" class="nav-link"><span>03. </span>Projects</a></li>
+            <li><a href="{{ route('blog') }}" class="nav-link"><span>04. </span>Blogs</a></li>
+            <li><a href="{{ route('contact') }}" class="nav-link"><span>05. </span>Contact</a></li>
+            <li><a href="{{ asset('collins_cv/my_resume.pdf') }}" target="_blank" class="nav-link"><span>06.
+                    </span>Resume</a></li>
         </ul>
     </div>
 
@@ -116,7 +115,7 @@
             <div class="about-img">
                 <div>
                     <div class="morphing-frame">
-                        <img src="{{asset('my_portfolio/img/mypicture.jpg')}}" alt="My Photo" />
+                        <img src="{{ asset('my_portfolio/img/mypicture.jpg') }}" alt="My Photo" />
                     </div>
                 </div>
                 <div class="about-para">
@@ -209,9 +208,16 @@
                     </div>
                 </div>
                 <div class="tech-button">
-                    <a href="{{asset('collins_cv/my_resume.pdf')}}" download="collins_resume.pdf">
+                    <a href="https://claude.ai/public/artifacts/2153ecf8-708f-4c06-a8ff-d5d8620154a6" target="_blank">
+                        <button>My Slide <i class="fas fa-scroll"></i></button>
+                    </a>
+                    <iframe src="https://claude.site/public/artifacts/2153ecf8-708f-4c06-a8ff-d5d8620154a6/embed"
+                        title="Claude Artifact" width="100%" height="600" frameborder="0"
+                        allow="clipboard-write" allowfullscreen></iframe>
+                    <a href="{{ asset('collins_cv/my_resume.pdf') }}" download="collins_resume.pdf">
                         <button>Download CV <i class="fas fa-scroll"></i></button>
                     </a>
+
                 </div>
             </div>
 
@@ -320,8 +326,10 @@
                                         <span><i class="fas fa-calendar-alt"></i> 2025 - Present</span>
                                         <h6>Software Development / UI/UX Tutor and Engineer</h6>
                                         <h3>SoloTech.AI Limited</h3>
-                                        <p>As a Software Development and UI/UX Tutor and Engineer at <a href="https://solotech-ai-ltd.com/" target="_blank">Solotech.ai
-                                            Limited</a>, I am actively contributing to the growth of a new and ambitious
+                                        <p>As a Software Development and UI/UX Tutor and Engineer at <a
+                                                href="https://solotech-ai-ltd.com/" target="_blank">Solotech.ai
+                                                Limited</a>, I am actively contributing to the growth of a new and
+                                            ambitious
                                             tech company. In addition to my technical roles, I serve as the Manager,
                                             helping to shape the company's vision, mentor aspiring developers, and drive
                                             innovative projects. My role combines leadership, technical expertise, and a
@@ -349,16 +357,16 @@
                         </div>
                     </div>
 
-                   <a href="{{route('project')}}">
-                    <div class="downpointer">
-                        <div class="arrow">
-                            <i class="fas fa-arrow-down"></i>
+                    <a href="{{ route('project') }}">
+                        <div class="downpointer">
+                            <div class="arrow">
+                                <i class="fas fa-arrow-down"></i>
+                            </div>
+                            <div class="mouse">
+                                <span><i class="ri-mouse-line"></i> Projects</span>
+                            </div>
                         </div>
-                        <div class="mouse">
-                            <span><i class="ri-mouse-line"></i> Projects</span>
-                        </div>
-                    </div>
-                   </a>
+                    </a>
                 </div>
 
 
@@ -371,10 +379,10 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <a href="{{url('/')}}">
+                    <a href="{{ url('/') }}">
                         <div class="logo">
-                        <span class="pxr">OG-</span><span class="labs">COLLINS</span>
-                    </div>
+                            <span class="pxr">OG-</span><span class="labs">COLLINS</span>
+                        </div>
                     </a>
                     <p>Build fast. Build smart. Build clean. I code. You scroll</p>
                     <div class="social-links">
@@ -394,20 +402,20 @@
                 <div class="footer-links">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="{{url('/')}}">Home</a></li>
-                        <li><a href="{{route('about')}}">About</a></li>
-                        <li><a href="{{route('project')}}">Project</a></li>
-                        <li><a href="{{route('blog')}}">Blogs</a></li>
-                        <li><a href="{{route('contact')}}">Contact</a></li>
-                        <li><a href="{{asset('collins_cv/my_resume.pdf')}}" target="_blank">Resume</a></li>
+                        <li><a href="{{ url('/') }}">Home</a></li>
+                        <li><a href="{{ route('about') }}">About</a></li>
+                        <li><a href="{{ route('project') }}">Project</a></li>
+                        <li><a href="{{ route('blog') }}">Blogs</a></li>
+                        <li><a href="{{ route('contact') }}">Contact</a></li>
+                        <li><a href="{{ asset('collins_cv/my_resume.pdf') }}" target="_blank">Resume</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-contact">
                     <h3>Contact Me</h3>
                     <ul>
-                        <li><i class="fas fa-envelope"></i> <a
-                                href="mailto:collinsxuccessful39@gmail.com" target="_blank">OG-COLLINS</a> </li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:collinsxuccessful39@gmail.com"
+                                target="_blank">OG-COLLINS</a> </li>
                         <li><i class="fa-solid fa-phone"></i>
                             <a href="tel:+2347067668473" target="_blank">+234 706 766 8473</a>
                         </li>
@@ -416,35 +424,35 @@
                 </div>
 
                 <!-- WhatsApp Floating Icon -->
-            <a href="https://wa.me/2347067668473" class="whatsapp-float" target="_blank"
-                title="Chat with me on WhatsApp">
-                <i class="fab fa-whatsapp"></i>
-            </a>
+                <a href="https://wa.me/2347067668473" class="whatsapp-float" target="_blank"
+                    title="Chat with me on WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
 
-            <style>
-                .whatsapp-float {
-                    position: fixed;
-                    bottom: 100px;
-                    right: 20px;
-                    background-color: #25d366;
-                    color: white;
-                    border-radius: 50%;
-                    font-size: 28px;
-                    width: 50px;
-                    height: 50px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                    z-index: 1000;
-                    transition: all 0.3s ease;
-                }
+                <style>
+                    .whatsapp-float {
+                        position: fixed;
+                        bottom: 100px;
+                        right: 20px;
+                        background-color: #25d366;
+                        color: white;
+                        border-radius: 50%;
+                        font-size: 28px;
+                        width: 50px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                        z-index: 1000;
+                        transition: all 0.3s ease;
+                    }
 
-                .whatsapp-float:hover {
-                    background-color: #20b957;
-                    transform: scale(1.1);
-                }
-            </style>
+                    .whatsapp-float:hover {
+                        background-color: #20b957;
+                        transform: scale(1.1);
+                    }
+                </style>
             </div>
 
             <div class="footer-bottom">
@@ -462,7 +470,10 @@
         </div>
         <script>
             function scrollToTop() {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
             }
         </script>
 
@@ -471,7 +482,7 @@
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
-    <script src="{{asset('my_portfolio/js/script.js')}}"></script>
+    <script src="{{ asset('my_portfolio/js/script.js') }}"></script>
 </body>
 
 </html>

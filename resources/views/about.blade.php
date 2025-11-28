@@ -211,9 +211,6 @@
                     <a href="https://claude.ai/public/artifacts/2153ecf8-708f-4c06-a8ff-d5d8620154a6" target="_blank">
                         <button>My Slide <i class="fas fa-scroll"></i></button>
                     </a>
-                    <iframe src="https://claude.site/public/artifacts/2153ecf8-708f-4c06-a8ff-d5d8620154a6/embed"
-                        title="Claude Artifact" width="100%" height="600" frameborder="0"
-                        allow="clipboard-write" allowfullscreen></iframe>
                     <a href="{{ asset('collins_cv/my_resume.pdf') }}" download="collins_resume.pdf">
                         <button>Download CV <i class="fas fa-scroll"></i></button>
                     </a>

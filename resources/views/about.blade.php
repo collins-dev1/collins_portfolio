@@ -208,7 +208,7 @@
                     </div>
                 </div>
                 <div class="tech-button">
-                    <a href="https://claude.ai/public/artifacts/2153ecf8-708f-4c06-a8ff-d5d8620154a6" target="_blank">
+                    <a href="https://claude.ai/public/artifacts/b48dd92a-c7ab-4a09-a0fc-f0254be36eda" target="_blank">
                         <button>My Slide <i class="fas fa-scroll"></i></button>
                     </a>
                     <a href="{{ asset('collins_cv/my_resume.pdf') }}" download="collins_resume.pdf">
